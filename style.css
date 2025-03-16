@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 550px;
+    height: 700px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-image: url(images/theatre-background.jpg);
+    background-size: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 208px;
+}
+
+header > h1{
+    color: #fff;
+    font-size: 2.68rem;
+}
+
+header > a,
+a:visited{
+    font-size: 0.87rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search{
+    display: flex;
+    width: 462px;
+    height: 38px;
+    border: 1px solid #D1D5DB;
+    border-radius: 7px;
+    margin: -20px auto;
+    
+}
+
+input[type=text]{
+    width: 70%;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    background-image: url(images/searchIcon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    padding: 12px 20px 12px 40px;
+}
+
+.search > button{
+    width: 30%;
+    border: 1px solid #D1D5DB;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    color: #374151;
+}
+
+.start-exploring,
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.display-movies > h2,
+.display-movies > img{
+    opacity: 0.1;
+    margin-bottom: 0;
+}
+
+.film-icon{
+    width: 70px;
+    
+}
+
+.poster{
+    width: 99px;
+    height: 148px;
+    margin-top: 10px;
+}
+
+.movie-info{
+    display: flex;
+    margin: 2em;
+}
+
+.movie-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.star-icon{
+    width: 15px;
+    margin-left: 10px;
+}
+
+.movie-title > p{
+    font-size: 0.75rem;
+    margin-left: 4px;
+    
+}
+
+.movie-meta{
+    display: flex;
+    font-size: 0.75rem;
+    margin-top: -10px;
+    gap: 25px;
+}
+
+.movie-container{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.plot{
+    font-size: 0.87rem;
+    color: #6B7280;
+    text-align: start;
+    margin-top: 0px;
+}
+
+.watchlist{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    margin-top: -2px;
+}
+
+.add-btn{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* my watchlist */
+
+.add-movies{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 0;
+}
+
+.add-icon{
+    width: 18px;
+}
+
+.add-movies > h3 > a{
+    color: black;
+    text-decoration: none;
+}
