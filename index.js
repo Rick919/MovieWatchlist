@@ -45,7 +45,7 @@ async function getMoviesData()
     const searchInput = searchBar.value.trim()
     try
     {
-        const response = await fetch(`http://www.omdbapi.com/?apikey=${apiKey}&t=${searchInput}`)
+        const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&t=${searchInput}`)
         if(response.ok)
         {
         const data = await response.json()
