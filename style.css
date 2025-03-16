@@ -5,7 +5,8 @@ body{
 }
 
 .container{
-    width: 550px;
+    width: 50vw;
+    min-width: 400px;
     height: 700px;
     margin: auto;
 }
@@ -36,7 +37,8 @@ a:visited{
 
 .search{
     display: flex;
-    width: 462px;
+    width: 30vw;
+    min-width: 300px;
     height: 38px;
     border: 1px solid #D1D5DB;
     border-radius: 7px;
